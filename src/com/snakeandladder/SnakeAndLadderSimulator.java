@@ -2,6 +2,7 @@ package com.snakeandladder;
 
 public class SnakeAndLadderSimulator {
     public static void main(String[] args) {
-        System.out.println("welcome to snake and ladder problem");
+        int playerposition = 0;
+        System.out.println("Player Did't Start The Game Player is at position : " + playerposition);
     }
 }
