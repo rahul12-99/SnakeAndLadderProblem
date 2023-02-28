@@ -2,7 +2,7 @@ package com.snakeandladder;
 
 public class SnakeAndLadderSimulator {
     public static void main(String[] args) {
-        int playerposition = 0;
-        System.out.println("Player Did't Start The Game Player is at position : " + playerposition);
+        int x = (int) Math.floor(Math.random()*(6 -1 +1) + 1);
+        System.out.println("The player rolled the dice and get a number : " + x);
     }
 }
