@@ -21,6 +21,9 @@ public class SnakeAndLadderSimulator {
             if (playerposition < 0){
                 playerposition = 0;
             }
+            if (playerposition > 100){
+                playerposition -= getnumber;
+            }
         }
         System.out.println(playerposition);
     }
